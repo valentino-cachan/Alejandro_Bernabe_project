@@ -1,57 +1,165 @@
 body {
     height: 100%;
-    width: 100%;  
-}
-main { 
-    height: 100%;
     width: 100%;
-    border: blue solid 3px;
-}
-section {
-    height: 100%;
-    width: 100%;
-    border: violet solid 3px;
-}
-article {
-    height: 300px;
-    width: 100%;
-    border: orange solid 3px;
-}
-.div__text {
-    background: yellow;
-    height: 200px;
-    width: 30%;
-    border: red solid 3px;
-}
-.div__contentIMG {
-    background: green;
-    height: 200px;
-    width: 70%;
-    border: black solid 3px;
 }
 .nav {
-    background: #616161;
+    background: #434343;
+    position: fixed;
+    width: 100%;
 }
+
 .nav__ul {
-    padding: 0;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    
 }
+
 .nav__ul-li {
-    display: inline-block;
-    width: 10em;
-    height: 2.75em;
-    margin-top: .9em;
     white-space: nowrap;
+    margin: 3vh 1vh 3vh 1.2vh;
 }
+
 .nav__ul li:first-child {
-    margin-left: 1em;
+    margin-left: 1vh;
 }
-.nav__ul-li>a {
-    font-size: 1.2em;
-    font-weight: 650;
+
+.nav__ul-li a {
     color: #000000;
-    margin-left: .2em;
+    font-size: 1.1em;
+    margin-left: .35em;
+}
+
+.nav__ul-li i {
+    font-size: 1em;
+
+}
+
+.nav__ul-li:hover>a {
+    margin-left: .35em;
+    transition: .8s;
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+
+.nav__ul-li:hover>i {
+    margin-left: .35em;
+    transition: .8s;
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+
+
+.presentacion {
+    display: flex;
+    padding-top: 8vh;
+}
+
+.presentacion__text {
+    background: #292929;
+    height: 100%;
+    min-height: 300vh;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.presentacion__text h1 {
+    color: #FFFFFF;
+    font-family: 'Vollkorn', serif;
+    padding-top: 1.2em;
+}
+
+.presentacion__text div h3 {
+    color: #FFFFFF;
+    font-family: 'Vollkorn', serif;
+    padding-bottom: 3em;
+}
+
+.presentacion__text div p {
+    color: #FFFFFF;
+    padding: 5vh 0 5vh 0 ;
+}
+
+.presentacion__contentIMG div img {
+    border: groove #838383 10px;
+}
+
+.presentacion__contentIMG div {
+    background: #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin: 1.5em 1.5em 1.5em 1.5em;
+   
+}
+
+.presentacion__contentIMG {
+    background: #ffffff;
+    height: 100%;
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.presentacion__contentIMG div p {
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+}
+.casa_Kuyuji img {
+    height: 68vh;
+    width: 45vw;
+}
+
+.casa_Ukun img {
+    height: 45vh;
+    width: 38vw;
+}
+
+.plaza_Ixhuatlan img {
+    height: 65vh;
+    width: 57vw;
+}
+
+.cine_Fox img {
+    height: 62vh;
+    width: 50vw;
+}
+
+.presentacion__contentIMG div:hover > p {
+    font-size: 1.2em;
+    color: #AB0000;
+    transition: .8s
+}
+
+.presentacion__contentIMG .casa_Kuyuji:hover > img {
+    height: 72vh;
+    width: 50vw;
+    transition: .8s
+}
+.presentacion__contentIMG .casa_Ukun:hover > img {
+    height: 50vh;
+    width: 42vw;
+    transition: .8s
+}
+.presentacion__contentIMG .plaza_Ixhuatlan:hover > img {
+    height: 70vh;
+    width: 62vw;
+    transition: .8s
+}
+.presentacion__contentIMG .cine_Fox:hover > img {
+    height: 68vh;
+    width: 55vw;
+    transition: .8s
+}
+
+footer {
+    width: 100%;
+    min-height: 20vh;
+    background: #434343;
 }
