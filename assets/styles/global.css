@@ -81,20 +81,11 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 5vh;
-
 }
 
 .primeraImpresion__div-izquierdo {
     height: 80%;
     width: 70%;
-}
-
-
-.primeraImpresion__div-izquierdo__p {
-    margin-top: 8vh;
-    margin-left: 3vw;
-    font-size: 1.2em;
-    font-family: 'Courgette';
 }
 
 .primeraImpresion__div-izquierdo__h1 {
@@ -156,7 +147,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .cuadrados__contenedor {
@@ -247,133 +237,11 @@ body {
     font-weight: 400;
 }
 
-
-
-
-
-
-
-
-
-
-
-.presentacion {
-    display: flex;
-    padding-top: 18vh;
-}
-
-.presentacion__text {
-    background: #292929;
-    height: 100%;
-    min-height: 300vh;
-    width: 30%;
-    text-align: center;
-    justify-content: center;
-
-}
-
-.presentacion__text h1 {
-    color: #FFFFFF;
-    font-family: 'Vollkorn', serif;
-    padding-top: 1.2em;
-}
-
-.presentacion__text div h3 {
-    color: #FFFFFF;
-    font-family: 'Vollkorn', serif;
-    padding-bottom: 3em;
-}
-
-.presentacion__text div p {
-    color: #FFFFFF;
-    padding: 5vh 0 5vh 0;
-}
-
-.presentacion__contentIMG div img {
-    border: groove #838383 10px;
-}
-
-.presentacion__contentIMG div {
-    background: #ffffff;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
-    margin: 1.5em 1.5em 1.5em 1.5em;
-
-}
-
-.presentacion__contentIMG {
-    background: #ffffff;
-    height: 100%;
-    width: 70%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.presentacion__contentIMG div p {
-    font-size: 1em;
-    font-weight: 700;
-    text-decoration: underline;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.casa_Kuyuji img {
-    height: 68vh;
-    width: 45vw;
-}
-
-.casa_Ukun img {
-    height: 45vh;
-    width: 38vw;
-}
-
-.plaza_Ixhuatlan img {
-    height: 65vh;
-    width: 57vw;
-}
-
-.cine_Fox img {
-    height: 62vh;
-    width: 50vw;
-}
-
-.presentacion__contentIMG div:hover>p {
-    font-size: 1.2em;
-    color: #AB0000;
-    transition: .8s
-}
-
-.presentacion__contentIMG .casa_Kuyuji:hover>img {
-    height: 72vh;
-    width: 50vw;
-    transition: .8s
-}
-
-.presentacion__contentIMG .casa_Ukun:hover>img {
-    height: 50vh;
-    width: 42vw;
-    transition: .8s
-}
-
-.presentacion__contentIMG .plaza_Ixhuatlan:hover>img {
-    height: 70vh;
-    width: 62vw;
-    transition: .8s
-}
-
-.presentacion__contentIMG .cine_Fox:hover>img {
-    height: 68vh;
-    width: 55vw;
-    transition: .8s
-}
-
 footer {
     width: 100%;
     min-height: 20vh;
     background: #ffffff;
-    display: flex  ;
+    display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -381,17 +249,15 @@ footer {
 
 .footer__contenedor {
     width: 90%;
-
     display: grid;
     text-align: center;
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-
     border-top: 2px solid #717171;
     margin-top: 10vh;
-  padding-top: 10vh;
+    padding-top: 10vh;
 }
 
 .footer__contenedor-div {
