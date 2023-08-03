@@ -1,11 +1,38 @@
 body {
+    background: #ffffff;
     height: 100%;
     width: 100%;
 }
+
 .nav {
-    background: #434343;
-    position: fixed;
+    background: #F7F7F7;
     width: 100%;
+    display: flex;
+    height: 20%;
+}
+
+.nav__logo {
+    height: 100%;
+    width: 30%;
+}
+
+.nav__logo__img {
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+.nav__logo__img img {
+    height: 8vh;
+    width: 4vw;
+}
+
+.nav__div__ul {
+    height: 100%;
+    width: 70%;
+    min-height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav__ul {
@@ -13,7 +40,6 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    
 }
 
 .nav__ul-li {
@@ -29,31 +55,211 @@ body {
     color: #000000;
     font-size: 1.1em;
     margin-left: .35em;
+    font-family: 'Courgette';
 }
 
 .nav__ul-li i {
     font-size: 1em;
-
 }
 
 .nav__ul-li:hover>a {
     margin-left: .35em;
     transition: .8s;
-    color: #FFFFFF;
     font-size: 1.4em;
 }
 
 .nav__ul-li:hover>i {
     margin-left: .35em;
     transition: .8s;
-    color: #FFFFFF;
     font-size: 1.4em;
 }
+
+.primeraImpresion {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+
+}
+
+.primeraImpresion__div-izquierdo {
+    height: 80%;
+    width: 70%;
+}
+
+
+.primeraImpresion__div-izquierdo__p {
+    margin-top: 8vh;
+    margin-left: 3vw;
+    font-size: 1.2em;
+    font-family: 'Courgette';
+}
+
+.primeraImpresion__div-izquierdo__h1 {
+    margin-top: 4vh;
+    margin-left: 3vw;
+    font-size: 6.5em;
+    font-family: 'Courgette';
+}
+
+.primeraImpresion__div-izquierdo__h3 {
+    margin-top: -2.5vh;
+    margin-left: 3vw;
+    font-size: 4.5em;
+    font-weight: 400;
+    font-family: 'Courgette';
+}
+
+.primeraImpresion__div-derecho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 30%;
+    padding-top: 5vh;
+}
+
+.primeraImpresion__div-derecho__p {
+    font-family: 'Courgette';
+    font-size: 1.2em;
+    font-size: 600;
+}
+
+.portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+.eslogan {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.eslogan__h3 {
+    font-size: 3em;
+    color: #C8A96F;
+}
+
+.eslogan__p {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.cuadrados {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cuadrados__contenedor {
+    width: 95%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrados__contenedor div {
+    width: 100%;
+    height: 80%;
+}
+
+.cuadrados__contenedor__numeros {
+    color: #717171;
+    font-size: 1.4em;
+}
+
+.cuadrados__contenedor_p {
+    color: #717171;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.cuadrados__contenedor__h3 {
+    font-size: 1.6em;
+    color: #000000;
+}
+
+.cuadrados__contenedor__div {
+    border: #717171 2px solid;
+    text-align: center;
+}
+
+.preMenu {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preMenu__h3 {
+    color: #C8A96F;
+    font-size: 2.8em;
+}
+
+.contenedor__portafolio {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.portafolio {
+    width: 90%;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.portafolio__imagenes {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.portafolio__descripcion {
+    text-align: left;
+}
+
+.portafolio__descripcion h4 {
+    font-size: 1.6em;
+    font-weight: 800;
+}
+
+.portafolio__descripcion p {
+    color: #717171;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
 
 
 .presentacion {
     display: flex;
-    padding-top: 8vh;
+    padding-top: 18vh;
 }
 
 .presentacion__text {
@@ -80,7 +286,7 @@ body {
 
 .presentacion__text div p {
     color: #FFFFFF;
-    padding: 5vh 0 5vh 0 ;
+    padding: 5vh 0 5vh 0;
 }
 
 .presentacion__contentIMG div img {
@@ -94,7 +300,7 @@ body {
     align-items: center;
     display: inline-block;
     margin: 1.5em 1.5em 1.5em 1.5em;
-   
+
 }
 
 .presentacion__contentIMG {
@@ -105,12 +311,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .presentacion__contentIMG div p {
     font-size: 1em;
     font-weight: 700;
     text-decoration: underline;
     font-family: 'Montserrat', sans-serif;
 }
+
 .casa_Kuyuji img {
     height: 68vh;
     width: 45vw;
@@ -131,28 +339,31 @@ body {
     width: 50vw;
 }
 
-.presentacion__contentIMG div:hover > p {
+.presentacion__contentIMG div:hover>p {
     font-size: 1.2em;
     color: #AB0000;
     transition: .8s
 }
 
-.presentacion__contentIMG .casa_Kuyuji:hover > img {
+.presentacion__contentIMG .casa_Kuyuji:hover>img {
     height: 72vh;
     width: 50vw;
     transition: .8s
 }
-.presentacion__contentIMG .casa_Ukun:hover > img {
+
+.presentacion__contentIMG .casa_Ukun:hover>img {
     height: 50vh;
     width: 42vw;
     transition: .8s
 }
-.presentacion__contentIMG .plaza_Ixhuatlan:hover > img {
+
+.presentacion__contentIMG .plaza_Ixhuatlan:hover>img {
     height: 70vh;
     width: 62vw;
     transition: .8s
 }
-.presentacion__contentIMG .cine_Fox:hover > img {
+
+.presentacion__contentIMG .cine_Fox:hover>img {
     height: 68vh;
     width: 55vw;
     transition: .8s
@@ -161,5 +372,50 @@ body {
 footer {
     width: 100%;
     min-height: 20vh;
-    background: #434343;
+    background: #ffffff;
+    display: flex  ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__contenedor {
+    width: 90%;
+
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+
+    border-top: 2px solid #717171;
+    margin-top: 10vh;
+  padding-top: 10vh;
+}
+
+.footer__contenedor-div {
+    height: 10vh;
+}
+
+.footer__contenedor-div h4 {
+    font-size: 1.4em;
+}
+
+.footer__contenedor-div p {
+    font-size: 1em;
+}
+
+.footer__contenedor-div-BOTON {
+    height: 10vh;
+    background: #000000;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35%;
+}
+
+.footer__contenedor-div-BOTON p {
+    color: #ffffff;
 }
