@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bernabe</title>
     <link rel="stylesheet" href="./assets/styles/necolas.github.io_normalize.css_8.0.1_normalize.css" />
-    <link rel="stylesheet" href="./assets/styles/small.css" media="(max-width: 576px)" />
-    <!--<link rel="stylesheet" href="./assets/styles/medium.css" media="(min-width: 768px)" /> -->
+  <!--  <link rel="stylesheet" href="./assets/styles/small.css" media="(max-width: 576px)" />-->
+    <link rel="stylesheet" href="./assets/styles/medium.css" media="(min-width: 768px)" /> 
     <!--<link rel="stylesheet" href="./assets/styles/global.css"  media="(min-width: 992px)"/> -->
     <script src="https://kit.fontawesome.com/5291a6015e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet"
@@ -20,10 +20,40 @@
         href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@400;500&family=Open+Sans&family=Raleway:ital,wght@1,300&family=Vollkorn&display=swap"
         rel="stylesheet" />
 </head>
-
 <body>
     <header>
         <nav>
+            <!--VERSION SMALL-->
+            <ul class="menu__responsive-ul">
+
+                <div class="menu__responsive-img-container">
+                    <img src="./assets/img/logo_bernabe.png">
+                </div>
+
+                <div class="menu__responsive-button-container">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <div class="menu__responsive-container-li">
+                    <li class="menu__responsive__li"><i class="fa-solid fa-house"></i><a
+                            class="nav__ul-li-a">Proyectos</a>
+                    </li>
+                    <li class="menu__responsive__li"><i class="fa-solid fa-phone"></i><a
+                            class="nav__ul-li-a">Contactanos</a>
+                    </li>
+                    <li class="menu__responsive__li"><i class="fa-solid fa-comments-dollar"></i><a>Consulta
+                            Presupuesto</a>
+                    </li>
+                    <li class="menu__responsive__li"><i class="fa-solid fa-people-group"></i><a
+                            class="nav__ul-li-a">Acerca de
+                            Nosotros</a></li>
+                    <li class="menu__responsive__li"><i class="fa-solid fa-comments"></i><a>Reseñas de clientes</a></li>
+                    <li class="menu__responsive__li"><i class="fa-solid fa-circle-info"></i><a
+                            class="nav__ul-li-a">Ayuda</a>
+                    </li>
+                </div>
+            </ul>
+            <!-- VERSION LARGE -->
             <div class="nav">
                 <div class="nav__logo">
                     <div class="nav__logo__img">
@@ -43,37 +73,12 @@
                     </ul>
                 </div>
             </div>
-
-            <ul class="menu__responsive-ul">
-
-                <div class="menu__responsive-img-container">
-                    <img src="./assets/img/logo_bernabe.png">
-                </div>
-
-                <div class="menu__responsive-button-container">
-                    <i class="fas fa-bars"></i>
-                </div>
-
-                <div class="menu__responsive-container-li">
-                    <li class="menu__responsive__li"><i class="fa-solid fa-house"></i><a
-                            class="nav__ul-li-a">Proyectos</a>
-                    </li>
-                    <li class="menu__responsive__li"><i class="fa-solid fa-phone"></i><a
-                            class="nav__ul-li-a">Contactanos</a>
-                    </li>
-                    <li class="menu__responsive__li"><i class="fa-solid fa-people-group"></i><a
-                            class="nav__ul-li-a">Acerca de
-                            Nosotros</a></li>
-                    <li class="menu__responsive__li"><i class="fa-solid fa-circle-info"></i><a
-                            class="nav__ul-li-a">Ayuda</a>
-                    </li>
-                </div>
-            </ul>
         </nav>
     </header>
     <main>
         <section>
             <article>
+                <!-- VERSION LARGE -->
                 <div class="primeraImpresion">
                     <div class="primeraImpresion__div-izquierdo">
                         <h1 class="primeraImpresion__div-izquierdo__h1">Arquitectura</h1>
@@ -87,13 +92,12 @@
                             dueños que los represente y emocione.</p>
                     </div>
                 </div>
-
+                <!--VERSION SMALL-->
                 <div class="primeraImpresion-small">
                     <div class="primeraImpresion-small__superior">
                         <h1>Arquitectura</h1>
                         <h3>Residencial</h3>
                     </div>
-
                     <div class="primeraImpresion-small__inferior">
                         <p>Somos un estudio de arquitectura <br /> que desarrolla
                             proyectos que inspiran.<br /> Nos enfocamos en entender tus necesidades dando respuestas
@@ -106,21 +110,17 @@
                 </div>
             </article>
             <article>
-                <div class="portada">
-                    <img src="https://placehold.co/1000x1000">
-                </div>
+                <!--VERSION SMALL-->
                 <div class="portada-small">
                     <img src="https://placehold.co/300x300">
                 </div>
+                <!-- VERSION LARGE -->
+                <div class="portada">
+                    <img src="https://placehold.co/1000x1000">
+                </div>
             </article>
             <article>
-                <div class="eslogan">
-                    <h3 class="eslogan__h3">Diseñamos y construimos obras y proyectos únicos que se adaptan a las
-                        necesidades
-                        de cada cliente.</h3>
-                    <p class="eslogan__p">Diseñamos con vos proyectos unicos a tu medida y la mas alta calidad.</p>
-                </div>
-
+                <!--VERSION SMALL-->
                 <div class="eslogan-small">
                     <h3>Diseñamos y construimos <br />
                         obras y proyectos únicos <br />
@@ -130,8 +130,52 @@
                         unicos a tu medida, <br />
                         y de la mas alta calidad.</p>
                 </div>
+                <!-- VERSION LARGE -->
+                <div class="eslogan">
+                    <h3 class="eslogan__h3">Diseñamos y construimos obras y proyectos únicos que se adaptan a las
+                        necesidades
+                        de cada cliente.</h3>
+                    <p class="eslogan__p">Diseñamos con vos proyectos unicos a tu medida y la mas alta calidad.</p>
+                </div>
             </article>
             <article>
+                <!--VERSION SMALL-->
+                <div class="cuadrados-small">
+                    <div class="cuadrados-small__contenedor">
+                        <div class="cuadrados-small__contenedor__div">
+                            <p>01.</p>
+                            <h3>Proyectos Únicos</h3>
+                            <br />
+                            <p>
+                                Cada proyecto está diseñado especificamente <br />
+                                 para cumplir con los deseos <br />
+                                 y necesidadesde de cada cliente. <br />
+                            </p>
+                        </div>
+                        <div class="cuadrados-small__contenedor__div">
+                            <p>02.</p>
+
+                            <h3>Diseñados a Medida</h3>
+                            <br />
+                            <p>
+                                Sin importar el tamaño del proyecto,<br />
+                                nos adaptamos y trabajamos <br />
+                                con la misma pasión en cada propuesta.
+                            </p>
+                        </div>
+                        <div class="cuadrados-small__contenedor__div">
+                            <p>03.</p>
+                            <h3 class="cuadrados__contenedor__h3">Construidos con Pasión</h3>
+                            <br />
+                            <p>
+                                Ponemos en cada obra a un equipo de <br />
+                                profesionales altamente capacitado que <br />
+                                conozca y domine cada área de trabajo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- VERSION LARGE -->
                 <div class="cuadrados">
                     <div class="cuadrados__contenedor">
                         <div class="cuadrados__contenedor__div">
@@ -167,46 +211,47 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="cuadrados-small">
-                    <div class="cuadrados-small__contenedor">
-                        <div class="cuadrados-small__contenedor__div">
-                            <p class="cuadrados-small__contenedor__numeros">01.</p><br />
-                            <h3>Proyectos Únicos</h3> <br />
-                            <br />
-                            <p>
-                                Cada proyecto está diseñado especificamente para cumplir <br />
-                                 con los deseos y necesidades <br /> de cada cliente.
-                            </p>
-                        </div>
-                        <div class="cuadrados-small__contenedor__div">
-                            <p class="cuadrados-small__contenedor__numeros">02.<br /></p>
-                            <br />
-                            <h3>Diseñados a Medida</h3><br />
-                            <br />
-                            <p>
-                                Sin importar el tamaño del proyecto, nos <br />
-                                adaptamos y trabajamos con la misma <br />
-                                pasión en cada propuesta.
-                            </p>
-                        </div>
-                        <div class="cuadrados-small__contenedor__div">
-                            <p class="cuadrados-small__contenedor__numeros">03.</p><br />
-                            <h3 class="cuadrados__contenedor__h3">Construidos con Pasión</h3><br />
-                            <br />
-                            <p>
-                                Ponemos en cada obra a un equipo de <br />
-                                profesionales altamente capacitado que <br />
-                                conozca y domine cada área de trabajo.
-                            </p>
-                        </div>
-                    </div>
+            </article>
+            <article>
+                <!--VERSION SMALL-->
+                <div class="preMenu-small">
+                    <h3>Proyectos destacados</h3>
+                </div>
+                <!-- VERSION LARGE -->
+                <div class="preMenu">
+                    <h3>Proyectos destacados</h3>
                 </div>
             </article>
             <article>
-                <div class="preMenu">
-                    <h3 class="preMenu__h3">Proyectos destacados</h3>
+                <!--VERSION SMALL-->
+                <div class="contenedor__portafolio-small">
+                    <div class="portafolio-small">
+                        <div class="portafolio__imagenes"><img src="https://placehold.co/400x200" /></div>
+                        <div class="portafolio__descripcion">
+                            <h4> Casa Prados Del Oeste 201 </h4> <br />
+                            <p> Superficie: 290.00 m² <br />
+                                Tipo: Vivienda Unifamiliar <br />
+                                Año: 2022-2024
+                            </p>
+                        </div>
+                        <div class="portafolio__imagenes"><img src="https://placehold.co/400x200" /></div>
+                        <div class="portafolio__descripcion">
+                            <h4> Casa Prados Del Oeste 201 </h4> <br />
+                            <p> Superficie: 290.00 m² <br />
+                                Tipo: Vivienda Unifamiliar <br />
+                                Año: 2022-2024
+                            </p>
+                        </div>
+                        <div class="portafolio__imagenes"><img src="https://placehold.co/400x200" /></div>
+                        <div class="portafolio__descripcion">
+                            <h4> Casa Prados Del Oeste 201 </h4><br />
+                            <p> Superficie: 290.00 m² <br />
+                                Año: 2022-2024 <br />
+                                Tipo: Vivienda Unifamiliar</p>
+                        </div>
+                    </div>
                 </div>
+                <!-- VERSION LARGE -->
                 <div class="contenedor__portafolio">
                     <div class="portafolio">
                         <div class="portafolio__imagenes"><img src="https://placehold.co/400x200" /></div>
@@ -245,6 +290,44 @@
         </section>
     </main>
     <footer>
+        <!-- VERSION SMALL -->
+        <div class="footer-small__contenedor">
+            <div class="footer-small__contenedor-div">
+                <h4>Bernabe Arquitectos</h4>
+            </div>
+            <div class="footer-small__contenedor-div">
+                <div class="footer-small__contenedor-div-BOTON">
+                    <p>Contactanos</p>
+                </div>
+            </div>
+            <div class="footer-small__contenedor-div">
+                <a><i class="fa-brands fa-facebook"></i>Facebook</a>
+                <a><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a><i class="fa-brands fa-twitter"></i>Twitter</a>
+            </div>
+            <div class="footer-small__contenedor-div">
+                <h4>Ubicacion</h4>
+            </div>
+            <div class="footer-small__contenedor-div">
+                <p>Alvaro Obregon 103,
+                    93400, Papantla de Olarte, Ver., MX</p>
+            </div>
+            <div class="footer-small__contenedor-div">
+                <h4>Horarios</h4>
+            </div>
+            <div class="footer-small__contenedor-div">
+                <p>De Lunes a Sabado</p>
+                <p>09.00 a 18.00 hs.</p>
+                <p>Reunión Requerida</p>
+            </div>
+            <div class="footer-small__contenedor-div">
+                <p>T&eacute;l. : 04 78 26 85 51</p>
+            </div>
+            <div class="footer-small__contenedor-div">
+                <a>gerencia@alejandro-bernabe-arquitectos.org</a>
+            </div>
+        </div>
+        <!-- VERSION LARGE -->
         <div class="footer__contenedor">
             <div class="footer__contenedor-div">
                 <h4>Bernabe Arquitectos</h4>
@@ -286,7 +369,5 @@
             </div>
         </div>
     </footer>
-
 </body>
-
 </html>
