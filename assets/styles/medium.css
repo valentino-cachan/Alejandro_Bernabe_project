@@ -1,5 +1,5 @@
 body {
-    background: #ffffff;
+    background: #10bd00;
     height: 100%;
     width: 100%;
 }
@@ -284,9 +284,4 @@ footer {
 
 .footer__contenedor-div-BOTON p {
     color: #ffffff;
-}
-
-/*DISPLEY: NONE; DE LAS VERSIONES RESPONSIVE/ADAPTATIVAS*/
-.menu__responsive-ul {
-    display: none;
 }
