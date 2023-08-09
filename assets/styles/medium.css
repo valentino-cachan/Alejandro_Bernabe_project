@@ -1,5 +1,5 @@
 body {
-    background: #ffffff;
+    background: #fff;
     height: 100%;
     width: 100%;
 }
@@ -23,7 +23,6 @@ body {
     min-height: 11vh;
     max-height: 20%;
     text-align: center;
-    justify-content: right;
     align-items: center;
     justify-content: space-between;
     list-style: none;
@@ -324,7 +323,7 @@ body {
 footer {
     width: 100%;
     min-height: 20vh;
-    background: #ffffff;
+    background: #fff;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -372,17 +371,17 @@ footer {
 .footer-small__contenedor-div h4 {
     font-size: 1.4em;
     padding: 0;
-    color: #ffffff;
+    color: #fff;
 }
 
 .footer-small__contenedor-div p {
     font-size: 0.9em;
-    color: #ffffff;
+    color: #fff;
 }
 
 .footer-small__contenedor-div a {
     font-size: 0.9em;
-    color: #ffffff;
+    color: #fff;
 }
 
 .footer-small__contenedor-div i {
@@ -403,7 +402,7 @@ footer {
 }
 
 .footer-small__contenedor-div-BOTON p {
-    color: #ffffff;
+    color: #fff;
 }
 
 .fa-facebook {
