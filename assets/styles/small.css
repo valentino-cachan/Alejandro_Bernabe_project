@@ -103,7 +103,7 @@ body {
 }
 
 .primeraImpresion-small__superior {
-    background: #ffff;
+    margin-left: .5em;
 }
 
 .primeraImpresion-small__superior h1 {
@@ -117,7 +117,12 @@ body {
     margin-bottom: 1em;
 }
 
-.primeraImpresion-small__inferior {
+.primeraImpresion-small__inferior  {
+    margin-left: .5em;
+
+}
+
+.primeraImpresion-small__inferior p {
     font-size: 1.2em;
 }
 
@@ -216,7 +221,7 @@ body {
     font-weight: 500;
     margin-left: 1em;
     margin-right: 1em;
-    margin-bottom: 1em;
+   
 }
 
 .cuadrados-small__contenedor__div p:first-child {
@@ -329,6 +334,8 @@ footer {
     text-align: center;
     justify-content: center;
     align-items: center;
+
+    
 }
 
 .footer__contenedor {
@@ -347,7 +354,7 @@ footer {
 
 .footer-small__contenedor {
     width: 100%;
-    background: #343434;;
+    background: #343434;
     display: grid;
     text-align: center;
     justify-content: center;
@@ -366,7 +373,6 @@ footer {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-bottom: -0.5em;
 }
 
 .footer-small__contenedor-div h4 {
