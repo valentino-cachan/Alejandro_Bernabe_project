@@ -2,28 +2,41 @@ body {
     background: #fff;
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
+
 }
 
 .nav {
-    background: #F7F7F7;
+    background: #6B6C6D;
     width: 100%;
-    display: flex;
     height: 20%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .nav__logo {
     height: 100%;
-    width: 30%;
+    width: 20vw;
+    position: relative;
+    right: 4em;
 }
 
 .nav__logo__img {
-    margin-top: 2vh;
+    margin-top: 1.5vh;
     margin-left: 2vw;
+    margin-bottom: 1.5vh;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+   
 }
 
 .nav__logo__img img {
-    height: 8vh;
-    width: 4vw;
+    height: 14vh;
+    width: 6vw;
 }
 
 .nav__div__ul {
@@ -38,58 +51,54 @@ body {
 .nav__ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    min-width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 .nav__ul-li {
-    white-space: nowrap;
-    margin: 3vh 1vh 3vh 1.2vh;
-}
-
-.nav__ul li:first-child {
-    margin-left: 1vh;
+    position: relative;
+    right: 2em;
+    width: 14vw;
+   
 }
 
 .nav__ul-li a {
-    color: #000000;
-    font-size: 1.1em;
-    margin-left: .35em;
+    color: #A3CD39;
+    font-size: 1.3em;
+    margin-left: .5em;
     font-family: 'Courgette';
 }
 
 .nav__ul-li i {
-    font-size: 1em;
+    font-size: 1.3em;
+    color: #A3CD39;
+
 }
 
 .nav__ul-li:hover>a {
-    margin-left: .35em;
-    transition: .8s;
-    font-size: 1.4em;
+    transition: 1s;
+    font-size: 1.6em;
 }
 
 .nav__ul-li:hover>i {
-    margin-left: .35em;
     transition: .8s;
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 
 .primeraImpresion {
-    height: 60vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5vh;
 }
 
 .primeraImpresion__div-izquierdo {
-    height: 80%;
-    width: 70%;
+    width: 50%;
 }
 
 .primeraImpresion__div-izquierdo__h1 {
-    margin-top: 4vh;
+    margin-top: 2vh;
     margin-left: 3vw;
     font-size: 6.5em;
     font-family: 'Courgette';
@@ -105,14 +114,13 @@ body {
 
 .primeraImpresion__div-derecho {
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    height: 80%;
-    width: 30%;
-    padding-top: 5vh;
+    width: 50%;
 }
 
-.primeraImpresion__div-derecho__p {
+.primeraImpresion__div-derecho p {
     font-family: 'Courgette';
     font-size: 1.2em;
     font-size: 600;
@@ -120,10 +128,13 @@ body {
 
 .portada {
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top: 10vh;
+    position: relative;
+    left: .2em;
 }
+
 
 .portada-small {
     display: none;
@@ -149,30 +160,27 @@ body {
     display: none;
 }
 
-.cuadrados {
-    width: 100vw;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .cuadrados__contenedor {
-    width: 95%;
-    height: 90%;
+    width: 100vw;
+    height: 50vh;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
 
 .cuadrados__contenedor div {
-    width: 100%;
-    height: 80%;
+    width: 30vw;
+    height: 70%;
+    border: #717171 2px solid;
+    text-align: center;
 }
 
 .cuadrados__contenedor__numeros {
     color: #717171;
-    font-size: 1.4em;
+    font-size: 1.6em;
+    margin-top: .5em;
+    font-weight: 600;
 }
 
 .cuadrados__contenedor_p {
@@ -183,12 +191,12 @@ body {
 
 .cuadrados__contenedor__h3 {
     font-size: 1.6em;
-    color: #000000;
+    color: #000;
 }
 
-.cuadrados__contenedor__div {
-    border: #717171 2px solid;
-    text-align: center;
+.cuadrados__contenedor__h3:hover {
+    font-size: 2em;
+    transition: .8s;
 }
 
 .cuadrados-small {
@@ -197,16 +205,18 @@ body {
 
 .preMenu {
     width: 100%;
-    height: 30vh;
-    text-align: center;
+    height: 20vh;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom: 1.5em;
 }
 
 .preMenu h3 {
     color: #C8A96F;
-    font-size: 2.8em;
+    font-size: 4em;
 }
 
 .contenedor__portafolio {
@@ -267,26 +277,48 @@ footer {
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    border-top: 2px solid #717171;
-    margin-top: 10vh;
-    padding-top: 10vh;
+    border-top: 3px solid #717171;
+    margin-top: 8vh;
+    padding-top: 6vh;
+    margin-bottom: 10vh;
 }
 
 .footer__contenedor-div {
-    height: 10vh;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__contenedor-div h4 {
-    font-size: 1.4em;
+    font-size: 1.8em;
 }
 
 .footer__contenedor-div p {
+    font-size: 1.1em;
+}
+.footer__contenedor-div a {
     font-size: 1em;
+    font-weight: 600;
+}
+
+.footer__contenedor-div i {
+    font-size: 1.4em;
+    margin-right: .5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.redes-large:hover {
+    font-size: 1.3em;
+    transition: .8s;
 }
 
 .footer__contenedor-div-BOTON {
-    height: 10vh;
-    background: #000000;
+    height: 15vh;
+    background: #000;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -295,11 +327,29 @@ footer {
 }
 
 .footer__contenedor-div-BOTON p {
-    color: #fff;
+    color: #A3CD39;
+    font-size: 1.8em;
+    font-weight: 600;
 }
 
-/*DISPLAY: NONE; DE LAS VERSIONES RESPONSIVE/ADAPTATIVAS*/
+.fa-facebook {
+    color: #146EC8;
+}
+
+.fa-instagram {
+    color: #C6017B;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+
+/*DISPLAY: NONE; DE LAS VERSIONES SMALL/MEDIUM*/
 .menu__responsive-ul {
+    display: none;
+}
+
+.menu__responsive-medium-ul {
     display: none;
 }
 
@@ -307,7 +357,15 @@ footer {
     display: none;
 }
 
+.primeraImpresion-medium {
+    display: none;
+}
+
 .portada-small {
+    display: none;
+}
+
+.portada-medium {
     display: none;
 }
 
@@ -315,7 +373,15 @@ footer {
     display: none;
 }
 
+.eslogan-medium {
+    display: none;
+}
+
 .cuadrados-small {
+    display: none;
+}
+
+.cuadrados-medium {
     display: none;
 }
 
@@ -324,12 +390,25 @@ footer {
 
 }
 
+.preMenu-medium {
+    display: none;
+}
+
 .contenedor__portafolio-small {
     display: none;
 
 }
 
+.contenedor__portafolio-medium {
+    display: none;
+}
+
 .footer-small__contenedor {
+    display: none;
+
+}
+
+.footer-medium__contenedor {
     display: none;
 
 }
