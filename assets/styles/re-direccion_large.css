@@ -159,7 +159,6 @@ body {
 
 .presentacion-large_contenedor {
     margin-top: 3em;
-    border: red solid 5px;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     flex-direction: column;
@@ -167,6 +166,8 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+    background: #f7f7f7;
+
 }
 
 .presentacion-large__div {
@@ -174,7 +175,6 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: violet 3px solid;
     width: 41vw;
     height: 140vh;
     position: relative;
@@ -182,7 +182,6 @@ body {
 }
 
 .presentacion-large__descripcion {
-    border: orange 3px solid;
     text-align: left;
     justify-content: center;
     align-items: center;
@@ -219,38 +218,36 @@ body {
 .banner-large {
     display: flex;
     justify-content: center;
-    border: solid black 4px;
+    background: #f7f7f7;
+
 }
 
 .galery-large {
     position: relative;
+    background: #f7f7f7;
 }
 
 .container {
     display: flex;
-    border: 3px blue solid;
     height: 115vh;
+    background: #f7f7f7;
+margin-bottom: 2em;
 }
 
 .slider {
     display: flex;
     overflow: hidden;
     scroll-behavior: smooth;
-    background: #fff;
+    background: #f7f7f7;
     padding: 2px;
     width: 100%;
     height: 110vh;
-  
     z-index: 1;
-
     position: relative;
-    border: red solid 3px;
     align-items: center;
 }
 
-
 .slider__container-img {
-    border: 3px solid green;
     min-width: 64.4vw;
     height: 105vh;
     margin: 4px;
@@ -293,20 +290,72 @@ body {
     font-size: 4em;
     cursor: pointer;
     object-fit: contain;
-    background: #00FFDC;
+    background: #A3CD39;
     border-radius: 50%;
     z-index: 10;
 }
 
 .prev {
     left: 0;
-    transform: translate(30%, 425%);
+    transform: translate(20%, 0%);
 }
 
 .next {
     right: 0;
-    transform: translate(-20%, 420%);
+    transform: translate(-20%, 0%);
 }
+
+
+/* MODIFICACION PARA PROYECTS */
+
+.proyects-large_container {
+   margin-top: 5vh;
+    height: 25vh;
+    width: 100%;
+    display: flex;
+}
+
+.controol {
+    position: absolute;
+    font-size: 2.8em;
+    cursor: pointer;
+    object-fit: contain;
+    background: #A3CD39;
+    border-radius: 50%;
+}
+
+.proyects-large_container a {
+    position: absolute;
+    font-size: 1.2em;
+    object-fit: contain;
+    border-bottom: #000;
+}
+
+.preev {
+    left: 0;
+    transform: translate(20%, 100%);
+}
+
+.preev__a {
+    left: 0;
+    transform: translate(30%, 250%);
+    color: #000;
+    text-decoration: none;
+}
+
+.neext {
+    right: 0;
+    transform: translate(-20%, 100%);
+}
+
+
+.neext__a {
+    right: 0;
+    transform: translate(-30%, 250%);
+    color: #000;
+    text-decoration: none;
+}
+
 
 footer {
     width: 100%;
