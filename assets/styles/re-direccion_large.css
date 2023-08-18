@@ -1,8 +1,9 @@
 body {
-    background: #fff;
+    background: #F7F7F7;
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+
 }
 
 .nav {
@@ -13,6 +14,7 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+
 }
 
 .nav__logo {
@@ -29,7 +31,6 @@ body {
     text-align: left;
     justify-content: left;
     align-items: left;
-   
 }
 
 .nav__logo__img img {
@@ -70,7 +71,6 @@ body {
 .nav__ul-li i {
     font-size: 1.3em;
     color: #A3CD39;
-
 }
 
 .nav__ul-li:hover>a {
@@ -83,182 +83,229 @@ body {
     font-size: 1.6em;
 }
 
-.primeraImpresion {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.primeraImpresion__div-izquierdo {
-    width: 50%;
-}
-
-.primeraImpresion__div-izquierdo__h1 {
-    margin-top: 2vh;
-    margin-left: 3vw;
-    font-size: 6.5em;
-    font-family: 'Courgette';
-}
-
-.primeraImpresion__div-izquierdo__h3 {
-    margin-top: -2.5vh;
-    margin-left: 3vw;
-    font-size: 4.5em;
-    font-weight: 400;
-    font-family: 'Courgette';
-}
-
-.primeraImpresion__div-derecho {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-}
-
-.primeraImpresion__div-derecho p {
-    font-family: 'Courgette';
-    font-size: 1.2em;
-    font-size: 600;
-}
-
-.portada {
+.portada-large {
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     position: relative;
     left: .2em;
+    top: .5em;
 }
 
-
-.portada-small {
-    display: none;
-}
-
-.eslogan {
-    display: block;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.eslogan__h3 {
-    
-    font-size: 3em;
-    color: #C8A96F;
+.primeraImpresion-large__div-superior {
     width: 100%;
-}
-
-.eslogan__p {
-    
-    font-size: 1.5em;
-    margin-top: 1em;
-    width: 100%;
-}
-
-.eslogan-small {
-    display: none;
-}
-
-.cuadrados__contenedor {
-    width: 100vw;
-    height: 50vh;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 95vh;
 }
 
-.cuadrados__contenedor div {
-    width: 30vw;
-    height: 70%;
-    border: #717171 2px solid;
-    text-align: center;
-}
-
-.cuadrados__contenedor__numeros {
-    color: #717171;
-    font-size: 1.6em;
-    margin-top: .5em;
-    font-weight: 600;
-}
-
-.cuadrados__contenedor_p {
-    color: #717171;
-    font-size: 1.2em;
-    font-weight: 500;
-}
-
-.cuadrados__contenedor__h3 {
-    font-size: 1.6em;
-    color: #000;
-}
-
-.cuadrados__contenedor__h3:hover {
-    font-size: 2em;
-    transition: .8s;
-}
-
-.cuadrados-small {
-    display: none;
-}
-
-.preMenu {
-    width: 100%;
-    height: 20vh;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.primeraImpresion-large__div-superior h1 {
+    font-size: 5em;
+    font-family: 'Courgette';
     position: relative;
-    bottom: 1.5em;
+    bottom: 3vh;
+    right: 11vw;
 }
 
-.preMenu h3 {
-    color: #C8A96F;
-    font-size: 4em;
-}
-
-.contenedor__portafolio {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.primeraImpresion-large__div-inferior-contenedor {
+    position: absolute;
     width: 100%;
-}
-
-.portafolio {
-    width: 90%;
-    display: grid;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-}
-
-.portafolio__imagenes {
+    top: 130vh;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.portafolio__descripcion {
-    text-align: left;
+.primeraImpresion-large__div-inferior {
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    width: 80%;
 }
 
-.portafolio__descripcion h4 {
-    font-size: 1.6em;
+.primeraImpresion-large__div-inferior-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.primeraImpresion-large__div-inferior-div h3 {
+    margin-top: -2.5vh;
+    margin-left: 3vw;
+    font-size: 2em;
     font-weight: 800;
+    font-family: 'Courgette';
 }
 
-.portafolio__descripcion p {
-    color: #717171;
-    font-size: 1em;
-    font-weight: 400;
+.primeraImpresion-large__div-inferior-div p {
+    font-weight: 600;
+    font-size: 1.6em;
+    color: #797979;
+}
+
+.primeraImpresion-large__div-derecho p {
+    font-family: 'Courgette';
+    font-size: 1.2em;
+    font-size: 600;
+}
+
+
+
+.presentacion-large_contenedor {
+    margin-top: 3em;
+    border: red solid 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion-large__div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: violet 3px solid;
+    width: 41vw;
+    height: 140vh;
+    position: relative;
+    left: 3em;
+}
+
+.presentacion-large__descripcion {
+    border: orange 3px solid;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.presentacion-large__descripcion a {
+    color: #000;
+    font-size: 1.2em;
+}
+
+.presentacion-large__descripcion h3 {
+    color: #C8A96F;
+    font-size: 3em;
+}
+
+.presentacion-large__descripcion h4 {
+    color: #000;
+    font-size: 1.4em;
+
+}
+
+.presentacion-large__descripcion p {
+    color: #000;
+    font-size: 1.25em;
+}
+
+.presentacion-large__descripcion h5 {
+    color: #000;
+    font-size: 1.2em;
+
+}
+
+.banner-large {
+    display: flex;
+    justify-content: center;
+    border: solid black 4px;
+}
+
+.galery-large {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    border: 3px blue solid;
+    height: 115vh;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    background: #fff;
+    padding: 2px;
+    width: 100%;
+    height: 110vh;
+  
+    z-index: 1;
+
+    position: relative;
+    border: red solid 3px;
+    align-items: center;
+}
+
+
+.slider__container-img {
+    border: 3px solid green;
+    min-width: 64.4vw;
+    height: 105vh;
+    margin: 4px;
+    padding: 0%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider__container-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 1s;
+        transform: 0.5s;
+        opacity: 0.3s;
+}
+
+.slider__container-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: 1s;
+    opacity: 0.3s;
+    pointer-events: none;
+    mix-blend-mode: darken;
+}
+
+.slider__container-img:hover img {
+    transform: scale(1.1);
+    filter: brightness(60%);
+}
+
+.control {
+    position: absolute;
+    font-size: 4em;
+    cursor: pointer;
+    object-fit: contain;
+    background: #00FFDC;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.prev {
+    left: 0;
+    transform: translate(30%, 425%);
+}
+
+.next {
+    right: 0;
+    transform: translate(-20%, 420%);
 }
 
 footer {
@@ -287,6 +334,7 @@ footer {
 
 .footer__contenedor-div {
     height: 18vh;
+    position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -301,6 +349,7 @@ footer {
 .footer__contenedor-div p {
     font-size: 1.1em;
 }
+
 .footer__contenedor-div a {
     font-size: 1em;
     font-weight: 600;
@@ -355,35 +404,7 @@ footer {
     display: none;
 }
 
-.primeraImpresion-small {
-    display: none;
-}
-
-.primeraImpresion-medium {
-    display: none;
-}
-
 .portada-small {
-    display: none;
-}
-
-.portada-medium {
-    display: none;
-}
-
-.eslogan-small {
-    display: none;
-}
-
-.eslogan-medium {
-    display: none;
-}
-
-.cuadrados-small {
-    display: none;
-}
-
-.cuadrados-medium {
     display: none;
 }
 
@@ -393,15 +414,6 @@ footer {
 }
 
 .preMenu-medium {
-    display: none;
-}
-
-.contenedor__portafolio-small {
-    display: none;
-
-}
-
-.contenedor__portafolio-medium {
     display: none;
 }
 
