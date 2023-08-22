@@ -13,23 +13,19 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+
 }
 
 .nav__logo {
-    height: 100%;
-    width: 20vw;
+    height: 13vh;
+    width: 15vw;
     position: relative;
-    right: 4em;
+    justify-content: center;
 }
 
-.nav__logo__img {
-    margin-top: 1.5vh;
-    margin-left: 2vw;
-    margin-bottom: 1.5vh;
-    text-align: left;
-    justify-content: left;
-    align-items: left;
-   
+.nav__logo img {
+    height: 100%;
+    width: 45%;
 }
 
 .nav__logo__img img {
@@ -42,22 +38,25 @@ body {
     width: 70%;
     min-height: 90%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 85vw;
 }
 
 .nav__ul {
     list-style-type: none;
     display: flex;
-    min-width: 80vw;
+    height: 14vh;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .nav__ul-li {
     position: relative;
-    right: 2em;
-    width: 14vw;
+    width: 13.5vw;
+    margin: .4em;
 }
 
 .nav__ul-li a {
@@ -70,7 +69,6 @@ body {
 .nav__ul-li i {
     font-size: 1.3em;
     color: #A3CD39;
-
 }
 
 .nav__ul-li:hover>a {
